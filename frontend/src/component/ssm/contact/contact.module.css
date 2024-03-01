@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    /* padding: 30px; */
+  }
+  .map {
+    margin-top: 7%;
+    margin: 70px auto;
+    background-image: url("E:\ECommerce App\map.JPG");
+    background-size: cover;
+    width: 70%;
+    height: 500px;
+   
+  }
+  .mainHolder {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px 0px 200px;
+    font-family: "Urbanist";
+  }
+  .main {
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    width: auto;
+    padding: 40px;
+    font-family: "Urbanist";
+    /* display: inline; */
+  }
+  .heading h1 {
+    box-sizing: border-box;
+    border-bottom: 3px solid rgb(248, 204, 5);
+    width: fit-content;
+    font-family: "Urbanist";
+    /* display: inline; */
+  }
+  
+  .box1 {
+    border: 2px solid rgb(248, 204, 5);
+    padding: 40px;
+    margin: 20px 20px 20px 0px;
+    box-sizing: content-box;
+    font-family: "Urbanist";
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    font-family: "Urbanist";
+  }
+  
+  .boxHead {
+    font-size: 25px;
+    font-family: "Urbanist";
+  }
+  .gst {
+    /* padding: 20px; */
+    margin-top: 20px;
+    font-family: "Urbanist";
+  }
+  
+  .row {
+    padding: 30px;
+    font-family: "Urbanist";
+  }
+  .formHold {
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    font-family: "Urbanist";
+  }
+  .form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Urbanist";
+  }
+  .row input {
+    margin: 0px 30px 0px 30px;
+    font-size: 17px;
+    padding: 10px;
+    width: 300px;
+    font-family: "Urbanist";
+  }
+  .row input:focus {
+    margin: 0px 30px 0px 30px;
+    font-size: 17px;
+    padding: 10px;
+    width: 300px;
+    outline: 3px solid orange;
+    border: none;
+    /* outline: none; */
+    transition: 0.2s;
+    font-family: "Urbanist";
+  }
+  
+  .formHead {
+    padding: 20px;
+    /* border-bottom: 3px solid black; */
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+    font-family: "Urbanist";
+  }
+  
+  .row textarea {
+    margin-left: 25px;
+    font-size: 17px;
+    padding: 10px;
+    font-family: "Urbanist";
+  }
+  .row button {
+    margin-left: 25px;
+    font-size: 22px;
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    /* font-weight: 700; */
+    border: none;
+    font-family: "Urbanist";
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Urbanist";
+  }
+  

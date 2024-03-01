@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  font-family: "Urbanist";
+}
+.brand {
+  /* font-weight: 600; */
+  margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  font-size: 27px;
+}
+.brand img {
+  width: 150px;
+  height: 80px;
+  object-fit: cover;
+  /* border-radius: 10%; */
+  cursor: pointer;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  background-color: white;
+  position: fixed;
+  font-weight: bold;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.2s ease;
+}
+.notNavbar {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: right;
+  margin-right: 30px;
+}
+.header h1 {
+  margin-right: 20px;
+  font-size: 18px;
+  margin-right: 40px;
+  transition: all 0.5s ease-in-out;
+  font-family: "Urbanist";
+}
+
+.header h1:hover {
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+  transform: translateY(-2px);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}

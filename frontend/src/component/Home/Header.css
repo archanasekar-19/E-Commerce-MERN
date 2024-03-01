@@ -1,0 +1,20 @@
+.inputBox > span{
+    font-family: "Urbanist";
+    letter-spacing: 1px;
+    animation: sliding 14s linear infinite;
+    display: block;
+}
+.logo1 {
+  height:100px;
+ 
+
+}
+@keyframes sliding{
+    0%{
+      transform: translateX(-70%);
+    }
+    100%{
+      transform: translateX(130%);
+    }
+  }
+

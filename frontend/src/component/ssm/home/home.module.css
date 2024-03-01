@@ -1,0 +1,111 @@
+.homeCon {
+    background-image: url("https://c8.alamy.com/comp/B70FFP/india-indore-spinning-mill-produce-yarn-from-organic-and-fair-trade-B70FFP.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+  }
+  /* .homecon:hover{
+    filter: blur(8px);
+  } */
+  .content {
+    padding: 30px;
+    position: absolute;
+    transform: translate(-27%, -26%);
+    top: 27%;
+    left: 26%;
+    -webkit-transform: translate(-27%, -26%);
+  }
+  
+  /* .homeCon h3 {
+    font-weight: 600;
+    font-size: 40px;
+    color: yellow;
+  } */
+  .data {
+    margin-top: 2%;
+    display: flex;
+  }
+  .data > .list {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 12px 8px 12px 8px;
+    border-radius: 10px;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+    background-color: rgba(128, 128, 128, 0.116);
+  }
+  .data > .list > li {
+    list-style-type: none;
+  }
+  .data {
+    padding: 1%;
+    margin-left: 6%;
+    justify-content: center;
+  }
+  .data > .list:hover {
+    -webkit-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 9px 34px -16px rgba(0, 0, 0, 0.75);
+  
+    cursor: pointer;
+  }
+  .section1head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* padding: 3%; */
+  }
+  .section1head h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .section1head p {
+    font-size: 15px;
+    color: #f76a29;
+  }
+  .section1head h2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .section2 {
+    background-image: url("https://images.pexels.com/photos/3297593/pexels-photo-3297593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* margin-bottom: 2%; */
+  }
+  .innersec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 8%;
+    gap: 5%;
+  }
+  .section2 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border-radius: 2%;
+    background-color: white;
+  }
+  .card h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .card p {
+    /* align-items: center; */
+    align-content: center;
+    text-align: center;
+    font-weight: 100;
+  }
+  .card img {
+    padding: 3%;
+    border-radius: 10%;
+  }
+  

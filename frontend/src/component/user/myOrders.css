@@ -1,0 +1,93 @@
+.myOrdersPage {
+    width: 100%;
+    height:100vh;
+    max-width: 100%;
+    padding: 0 7vmax;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+   font-family: "Urbanist";
+  }
+  
+  #myOrdersHeading {
+    text-align: center;
+    font: 400 1.2vmax "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    background-color: rgb(44, 44, 44);
+    font-family: "Urbanist";
+  }
+  
+  .myOrdersTable {
+    background-color: white;
+    font-family: "Urbanist";
+  }
+  
+  .myOrdersTable div {
+    font: 300 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.678);
+    border: none;
+    font-family: "Urbanist";
+  }
+  
+  .myOrdersTable a {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+    font-family: "Urbanist";
+  }
+  
+  .myOrdersTable a:hover {
+    color: #3BB77E;
+    font-family: "Urbanist";
+  }
+  
+  .MuiDataGrid-columnHeader {
+    background-color: #3BB77E;
+    padding: 1vmax !important;
+    font-family: "Urbanist";
+  }
+  
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font: 500 1.1vmax  !important;
+    font-family: "Urbanist";
+  }
+  
+  .MuiDataGrid-iconSeparator {
+    display: none !important;
+    font-family: "Urbanist";
+  }
+  
+  @media screen and (max-width: 600px) {
+    .myOrdersPage {
+      padding: 0;
+      height: 93vh;
+    }
+  
+    #myOrdersHeading {
+      font: 400 2.2vmax;
+      padding: 4vw;
+      font-family: "Urbanist";
+    }
+  
+    .myOrdersTable div {
+      font: 300 4vw ;
+      font-family: "Urbanist";
+    }
+  
+    .MuiDataGrid-columnHeader {
+      padding: 20px !important;
+      font-family: "Urbanist";
+    }
+  
+    .MuiDataGrid-columnHeader div {
+      font: 500 5vw !important;
+      font-family: "Urbanist";
+    }
+  }
