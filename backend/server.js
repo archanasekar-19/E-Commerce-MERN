@@ -9,6 +9,17 @@ process.on("uncaughtException",(err) =>{
     console.log(`Shutting down the server for Handling uncaught Exception`);
 })
 
+if (process.env.NODE_ENV === 'production') {
+    // Serve the built frontend from the 'frontend/build' directory
+    app.use(express.static(path.join(__dirname, 'frontend/build')));
+  
+    // Serve the index.html file for any other routes
+    app.get('*', (req, res) => {
+      res.sendFile(path.resolve(__dirname, 'frontend/build', 'index.html'));
+    });
+  }
+  
+
 //CONFIG
 dotenv.config({
     path :"backend/config/.env"
